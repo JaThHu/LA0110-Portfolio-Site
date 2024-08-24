@@ -43,17 +43,17 @@ Ich mache ein Portfolio als Website mit HTML, CSS und JavaScript.
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |    Janick       |   Einrichtung des React.js-Projekts und Implementierung der Navbar.	           |               |
-| 1.B |       |     Janick      |      Entwicklung der Navigation für die Startseite, „Über mich“-Seite und „Projekte“-Seite.	        |               |
-| 2.A		 |       |     Janick      |      Entwicklung der Startseite mit allen notwendigen Platzhaltern und Verlinkungen.        |               |
-| 2.B		 |       |     Janick      |   Darstellung der Projekte mit Platzhaltern für Titel, Bild, Beschreibung und Link.	           |               |
-| 2.C	 |       |     Janick      |      Gestaltung der Projekt-Platzhalter mit Hover-Effekten.	        |               |
-|3.A	  |       |    Janick       |    Hinzufügen von Social Media-Links und E-Mail-Kontaktmöglichkeit im Footer.          |               |
-| 4.A |       |   Janick        |     Umsetzung des Responsive Designs für die Navigation und Hauptinhalte.	         |               |
-| 4.B	 |       |   Janick        |     Anpassung der „Über mich“- und „Projekte“-Seite für mobile Geräte.         |               |
-| 5.A |       |    Janick       |    Entwicklung der „Über mich“-Seite mit allen relevanten Informationen.	          |               |
-| 6.A	 |       |   Janick        |     Veröffentlichung der Website auf dem Web-Server.         |               |
-| 7.A	 |       |    Janick       |     Testing der gesamten Website und Behebung von Fehlern.         |               |
+| 1.A  |  23.08.2024     |    Janick       |   Einrichtung des React.js-Projekts und Implementierung der Navbar.	           |               |
+| 1.B |    23.08.2024      |     Janick      |      Entwicklung der Navigation für die Startseite, „Über mich“-Seite und „Projekte“-Seite.	        |               |
+| 2.A		 | 06.09.2024      |     Janick      |      Entwicklung der Startseite mit allen notwendigen Platzhaltern und Verlinkungen.        |               |
+| 2.B		 |  06.09.2024     |     Janick      |   Darstellung der Projekte mit Platzhaltern für Titel, Bild, Beschreibung und Link.	           |               |
+| 2.C	 |   06.09.2024    |     Janick      |      Gestaltung der Projekt-Platzhalter mit Hover-Effekten.	        |               |
+|3.A	  | 18.10.2024      |    Janick       |    Hinzufügen von Social Media-Links und E-Mail-Kontaktmöglichkeit im Footer.          |               |
+| 4.A |  18.10.2024     |   Janick        |     Umsetzung des Responsive Designs für die Navigation und Hauptinhalte.	         |               |
+| 4.B	 |  18.10.2024     |   Janick        |     Anpassung der „Über mich“- und „Projekte“-Seite für mobile Geräte.         |               |
+| 5.A | 06.09.2024      |    Janick       |    Entwicklung der „Über mich“-Seite mit allen relevanten Informationen.	          |               |
+| 6.A	 |  25.10.2024     |   Janick        |     Veröffentlichung der Website auf dem Web-Server.         |               |
+| 7.A	 |  25.10.2024     |    Janick       |     Testing der gesamten Website und Behebung von Fehlern.         |               |
 
 Total: 
 
