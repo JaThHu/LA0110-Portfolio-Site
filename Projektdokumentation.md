@@ -43,18 +43,21 @@ Ich mache ein Portfolio als Website mit HTML, CSS und JavaScript.
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  |       |    Janick       |   Einrichtung des React.js-Projekts und Implementierung der Navbar.	           |               |
+| 1.B |       |     Janick      |      Entwicklung der Navigation für die Startseite, „Über mich“-Seite und „Projekte“-Seite.	        |               |
+| 2.A		 |       |     Janick      |      Entwicklung der Startseite mit allen notwendigen Platzhaltern und Verlinkungen.        |               |
+| 2.B		 |       |     Janick      |   Darstellung der Projekte mit Platzhaltern für Titel, Bild, Beschreibung und Link.	           |               |
+| 2.C	 |       |     Janick      |      Gestaltung der Projekt-Platzhalter mit Hover-Effekten.	        |               |
+|3.A	  |       |    Janick       |    Hinzufügen von Social Media-Links und E-Mail-Kontaktmöglichkeit im Footer.          |               |
+| 4.A |       |   Janick        |     Umsetzung des Responsive Designs für die Navigation und Hauptinhalte.	         |               |
+| 4.B	 |       |   Janick        |     Anpassung der „Über mich“- und „Projekte“-Seite für mobile Geräte.         |               |
+| 5.A |       |    Janick       |    Entwicklung der „Über mich“-Seite mit allen relevanten Informationen.	          |               |
+| 6.A	 |       |   Janick        |     Veröffentlichung der Website auf dem Web-Server.         |               |
+| 7.A	 |       |    Janick       |     Testing der gesamten Website und Behebung von Fehlern.         |               |
 
 Total: 
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
-
 ## 3 Entscheiden
-
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
 
 ## 4 Realisieren
 
