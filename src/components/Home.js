@@ -9,7 +9,7 @@ const Home = () => {
       </h2>
       <p>"Programmieren ist wie das erste Bier an einem Freitag Abend."</p>
       <div id="home-container">
-        <a class="placeholder-box" href="/about">
+        <a class="placeholder-box" href="./about">
           <img
             src="./images/benutzer.png"
             alt="about logo"
@@ -17,7 +17,7 @@ const Home = () => {
           ></img>
         </a>
 
-        <a class="placeholder-box" href="/projects">
+        <a class="placeholder-box" href="./projects">
           <img
             src="./images/rakete.png"
             alt="projects logo"
@@ -25,7 +25,7 @@ const Home = () => {
           ></img>
         </a>
 
-        <a class="placeholder-box" href="/contact">
+        <a class="placeholder-box" href="./contact">
           <img
             src="./images/contact-us.png"
             alt="contact logo"
