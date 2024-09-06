@@ -5,8 +5,8 @@ Ghost_SnipexOG/Jathhu/JanickDieSniper
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |   23.08.2024    | 0.0.1   | Das Projekt ist aufgesetzt, und die Navigation zwischen den Seiten funktioniert einwandfrei. Die Grundstruktur der Website steht. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+|  30.08.2024     | 0.0.2     | Die Startseite wurde aufgebaut und die Platzhalter wurden erstellt.     |
+|   06.09.2024    | 0.0.3   |  Die Startseite wurde fertiggestellt und die "über mich"-Seite angefangen.      |
 
 ## 1 Informieren
 
@@ -65,6 +65,9 @@ Total:
 | ---- | ----- | --------- | ------------- | ----------------- |
 | 1.A  |  23.08.2024     |    Janick       |               |                   |
 | 1.B  | 23.08.2024      |    Janick       |               |                   |
+| 2.A |   30.08.2024   |    Janick       |               |                   |
+| 2.B |  06.09.2024   |    Janick       |               |                   |
+| 2.C |   06.09.2024  |    Janick       |               |                   |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
