@@ -2,45 +2,131 @@
   display: flex;
   padding: 20px;
   margin: 20px;
-
   border-radius: 5px;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+
 section h2 {
   color: white;
-  font-size: 300%;
-  text-align: center;
+  font-size: 5rem; /* Anpassung für große Bildschirme */
 }
+
 section p {
   color: white;
+  font-size: 2rem; /* Anpassung für große Bildschirme */
 }
-.placeholder-box {
-  width: 20%;
-  height: 150px;
-  background-color: #242582;
+
+#home-title h2 {
+  margin: 0%;
+  color: #f64c72;
+}
+
+#first-p {
+  font-size: 1.5rem; /* Anpassung für große Bildschirme */
+}
+
+.carousel-container {
+  width: 50%; /* Breite der Slideshow */
+  max-width: 800px; /* Maximale Breite */
+  height: 500px; /* Automatische Höhe */
+  position: relative;
+  margin: 20px auto; /* Zentriere den Carousel */
+  overflow: hidden;
   border-radius: 10px;
-  box-shadow: 0 10px 15px rgba(0.5, 0.5, 0.5, 0.5);
-  transition: transform 0.3s ease, box-shadow 0.3s ease,
-    background-color 0.3s ease;
-  padding: 20px;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
-.placeholder-box:hover {
-  transform: scale(1.1);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-  background-color: #4b4eff;
+/* Slide Images */
+.carousel-slide img {
+  height: auto; /* Automatische Höhe */
+  width: 100%; /* Volle Breite */
+  max-height: 500px; /* Maximale Höhe */
+  object-fit: cover; /* Vermeidet Verzerrung */
+  display: block;
+  border-radius: 10px;
 }
 
-#home-container {
-  margin-top: 70px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
 
-  width: 100%;
-  margin-bottom: 200px;
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Buttons Style */
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 50%;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+}
+
+/* Button Position */
+.prev {
+  left: 10px; /* Abstand von der linken Seite */
+}
+
+.next {
+  right: 10px; /* Abstand von der rechten Seite */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column; /* Vertikale Anordnung auf kleinen Bildschirmen */
+    padding: 10px; /* Weniger Padding für mobile Ansicht */
+  }
+
+  section h2 {
+    font-size: 2.5rem; /* Kleinere Schriftgröße für Mobilgeräte */
+    text-align: center; /* Zentriert den Titel */
+  }
+
+  section p {
+    font-size: 1.2rem; /* Kleinere Schriftgröße für Mobilgeräte */
+    text-align: center; /* Zentriert den Text */
+  }
+
+  .carousel-container {
+    width: 100%; /* Slideshow passt sich der Bildschirmbreite an */
+    height: 200px; /* Kleinere Höhe für mobile Geräte */
+  }
+
+  .carousel-slide img {
+    max-height: 200px; /* Maximale Höhe für mobile Geräte */
+  }
+
+  .carousel-button {
+    width: 40px;
+    height: 40px;
+    font-size: 20px; /* Kleinere Buttons auf mobilen Geräten */
+  }
 }

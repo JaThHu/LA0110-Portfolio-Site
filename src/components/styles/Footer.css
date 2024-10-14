@@ -1,0 +1,9 @@
+.footer {
+  bottom: 0;
+  width: 100%; /* Stellt sicher, dass der Footer die volle Breite hat */
+  background-color: #242582;
+  color: white; /* Textfarbe */
+  text-align: center; /* Zentriert den Text */
+  padding: 5px; /* Padding für den Footer */
+  margin-top: 10%;
+}

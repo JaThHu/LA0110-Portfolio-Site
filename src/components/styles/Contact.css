@@ -1,0 +1,80 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.contact-container h2 {
+  margin-bottom: 50px;
+  font-size: 32px;
+  color: #f64c72;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap; /* Ermöglicht das Umfließen der Karten */
+  gap: 20px;
+  justify-content: center;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #242582;
+  text-decoration: none;
+  color: black;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 300px;
+  overflow: hidden;
+}
+
+.contact-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
+  background-color: #4b4eff;
+}
+
+.contact-icon {
+  font-size: 100px; /* Kleinere Standardgröße */
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-container h2 {
+    font-size: 24px; /* Kleinere Schriftgröße für Mobilgeräte */
+  }
+
+  .contact-card {
+    width: 120px; /* Kleinere Breite für Mobilgeräte */
+    height: 120px; /* Kleinere Höhe für Mobilgeräte */
+  }
+
+  .contact-icon {
+    font-size: 80px; /* Kleinere Icons für Mobilgeräte */
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 10px; /* Weniger Padding auf sehr kleinen Bildschirmen */
+  }
+
+  .contact-card {
+    width: 100px; /* Weiter verkleinerte Breite */
+    height: 100px; /* Weiter verkleinerte Höhe */
+  }
+
+  .contact-icon {
+    font-size: 60px; /* Noch kleinere Icons */
+  }
+}

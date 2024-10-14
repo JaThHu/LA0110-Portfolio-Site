@@ -7,6 +7,7 @@
 .siteTitle {
   color: #f64c72;
 }
+
 .projects h2 {
   font-size: 32px;
   text-align: center;
@@ -15,7 +16,10 @@
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(300px, 30%));
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  ); /* Automatische Anpassung der Spalten */
   justify-content: center;
   gap: 20px;
   margin-bottom: 100px;
@@ -40,7 +44,7 @@
 .project-image {
   width: 100%;
   height: 200px;
-  object-fit: fill;
+  object-fit: cover;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
 }
 
@@ -62,6 +66,7 @@
 .project-card p {
   color: white;
   flex-grow: 1;
+  font-size: 16px;
 }
 
 .project-card a {
@@ -74,4 +79,31 @@
 
 .project-card a:hover {
   color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .projects h2 {
+    font-size: 24px; /* Kleinere Schriftgröße für Mobilgeräte */
+  }
+
+  .projects-grid {
+    gap: 15px; /* Kleineren Abstand zwischen den Projektkarten */
+  }
+
+  .project-card h3 {
+    font-size: 20px; /* Kleinere Schriftgröße für Titel */
+  }
+
+  .project-card p {
+    font-size: 14px; /* Kleinere Schriftgröße für die Beschreibung */
+  }
+
+  .project-image {
+    height: 150px; /* Kleinere Höhe für das Bild */
+  }
+
+  .project-card {
+    padding: 10px; /* Weniger Padding */
+  }
 }
