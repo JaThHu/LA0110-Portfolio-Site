@@ -39,7 +39,6 @@ const Projects = () => {
           description="Eine Webseite rund um Handball. Ein Projekt aus dem erstem Schuljahr."
           link="https://github.com/JaThHu/Handball-Webseite"
         />
-        <ProjectCard title="#" image="#" description="#" link="#" />
       </div>
     </section>
   );

@@ -1,37 +1,64 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./styles/Home.css";
 
+const images = [
+  "./images/IMG_3272.JPG",
+  "./images/IMG_1440.JPG",
+  "./images/IMG_2985.JPG",
+  "./images/SG-Fricktal-Pro-U19.jpg",
+  "./images/skifoarn.jpg",
+];
+
 const Home = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [fade, setFade] = useState(true);
+
+  // Automatischer Bildwechsel alle 5 Sekunden
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide();
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, [currentIndex]);
+
+  const prevSlide = () => {
+    setFade(false);
+    setTimeout(() => {
+      setCurrentIndex((prevIndex) =>
+        prevIndex === 0 ? images.length - 1 : prevIndex - 1
+      );
+      setFade(true);
+    }, 300); // Zeit für das Ausblenden
+  };
+
+  const nextSlide = () => {
+    setFade(false);
+    setTimeout(() => {
+      setCurrentIndex((prevIndex) =>
+        prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      );
+      setFade(true);
+    }, 300); // Zeit für das Ausblenden
+  };
+
   return (
     <section className="home">
-      <h2>
-        Ich heisse Janick Hurschler,<br></br>willkommen zu meinem Portfolio
-      </h2>
-      <p>"Programmieren ist wie das erste Bier an einem Freitag Abend."</p>
-      <div id="home-container">
-        <a class="placeholder-box" href="/about">
-          <img
-            src="./images/nutzer.png"
-            alt="about logo"
-            className="home-logo"
-          ></img>
-        </a>
-
-        <a class="placeholder-box" href="/projects">
-          <img
-            src="./images/projektmanagement.png"
-            alt="projects logo"
-            className="home-logo"
-          ></img>
-        </a>
-
-        <a class="placeholder-box" href="/contact">
-          <img
-            src="./images/brief.png"
-            alt="contact logo"
-            className="home-logo"
-          ></img>
-        </a>
+      <div id="home-title">
+        <p id="first-p">Mein Name ist</p>
+        <h2>Janick Hurschler</h2>
+        <p>willkommen zu meinem Portfolio</p>
+      </div>
+      <div className="carousel-container">
+        <div className={`carousel-slide ${fade ? "fade-in" : "fade-out"}`}>
+          <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
+        </div>
+        <button className="carousel-button prev" onClick={prevSlide}>
+          &#10094;
+        </button>
+        <button className="carousel-button next" onClick={nextSlide}>
+          &#10095;
+        </button>
       </div>
     </section>
   );

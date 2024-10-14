@@ -6,13 +6,14 @@
   margin: 20px;
 }
 
+/* Header Styling */
 .header {
   display: flex;
-
   align-items: center;
   margin-bottom: 40px;
 }
 
+/* Profilbild Styling */
 .profile-picture {
   width: 200px;
   height: 200px;
@@ -28,6 +29,7 @@
   object-fit: cover;
 }
 
+/* Info Styling */
 .info {
   flex: 1;
 }
@@ -44,10 +46,12 @@
   list-style-type: none;
   padding-left: 5px;
 }
+
 .info li {
   margin-bottom: 5px;
 }
 
+/* Skills Container */
 .skills-container {
   display: flex;
   flex-wrap: wrap;
@@ -57,6 +61,7 @@
   margin-top: 20px;
 }
 
+/* Skill Card Styling */
 .skill-card {
   width: 180px;
   height: 180px;
@@ -79,6 +84,7 @@
   background-color: #4b4eff;
 }
 
+/* Info Table Styling */
 .info-table {
   width: 100%;
   border-collapse: collapse;
@@ -90,17 +96,55 @@
   text-align: left;
   padding: 8px;
   border-bottom: 1px solid #ddd;
-}
-
-.info-table td {
   font-size: 16px;
 }
+
 .skill-card .skill-text {
   font-size: 14px;
   margin-top: 10px;
   color: white;
 }
+
 .skill-2 {
   font-size: 55px;
   margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Vertikale Anordnung auf kleinen Bildschirmen */
+    align-items: center; /* Zentrieren der Elemente */
+  }
+
+  .profile-picture {
+    margin-right: 0; /* Abstand von der rechten Seite entfernen */
+    margin-bottom: 20px; /* Abstand unter dem Profilbild */
+  }
+
+  .info h2 {
+    font-size: 24px; /* Kleinere Schriftgröße für Mobilgeräte */
+    text-align: center; /* Zentriert den Titel */
+  }
+
+  .info ul {
+    font-size: 14px; /* Kleinere Schriftgröße für Mobilgeräte */
+    padding-left: 0; /* Entferne Padding für bessere Anpassung */
+    text-align: center; /* Zentriert die Liste */
+  }
+
+  .skills-container {
+    width: 100%; /* Skills Container passt sich der Bildschirmbreite an */
+    gap: 10px; /* Kleineren Abstand zwischen den Skills */
+  }
+
+  .skill-card {
+    width: 120px; /* Kleinere Breite für mobile Geräte */
+    height: 120px; /* Kleinere Höhe für mobile Geräte */
+    font-size: 50px; /* Kleinere Schriftgröße für mobile Geräte */
+  }
+
+  .info-table td {
+    font-size: 14px; /* Kleinere Schriftgröße für mobile Geräte */
+  }
 }

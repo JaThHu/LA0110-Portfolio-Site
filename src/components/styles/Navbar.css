@@ -4,9 +4,9 @@
 }
 .navbar {
   color: white;
-  padding: 5px;
+  padding-left: 20px;
   display: flex;
-  padding-left: 25px;
+  margin-top: 10px;
   align-items: center;
 }
 
@@ -15,6 +15,7 @@
   display: flex;
   gap: 15px;
   justify-content: space-between;
+  padding-left: 20px;
 }
 
 .navbar a {
@@ -27,4 +28,14 @@
 
 .navbar li:hover {
   transform: scale(1.2);
+}
+@media (max-width: 768px) {
+  .navbar {
+    color: white;
+    padding-left: 50px;
+    display: flex;
+
+    align-items: center;
+    background-color: #f64c72;
+  }
 }
