@@ -13,7 +13,6 @@ const Home = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [fade, setFade] = useState(true);
 
-  // Automatischer Bildwechsel alle 5 Sekunden
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
@@ -29,7 +28,7 @@ const Home = () => {
         prevIndex === 0 ? images.length - 1 : prevIndex - 1
       );
       setFade(true);
-    }, 300); // Zeit für das Ausblenden
+    }, 300);
   };
 
   const nextSlide = () => {
@@ -39,7 +38,7 @@ const Home = () => {
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
       setFade(true);
-    }, 300); // Zeit für das Ausblenden
+    }, 300);
   };
 
   return (

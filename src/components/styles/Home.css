@@ -1,7 +1,7 @@
 .home {
   display: flex;
   padding: 20px;
-  margin: 20px;
+  margin-left: 20px;
   border-radius: 5px;
   flex-direction: row;
   justify-content: center;
@@ -10,12 +10,12 @@
 
 section h2 {
   color: white;
-  font-size: 5rem; /* Anpassung für große Bildschirme */
+  font-size: 5rem;
 }
 
 section p {
   color: white;
-  font-size: 2rem; /* Anpassung für große Bildschirme */
+  font-size: 2rem;
 }
 
 #home-title h2 {
@@ -24,15 +24,15 @@ section p {
 }
 
 #first-p {
-  font-size: 1.5rem; /* Anpassung für große Bildschirme */
+  font-size: 1.5rem;
 }
 
 .carousel-container {
-  width: 50%; /* Breite der Slideshow */
-  max-width: 800px; /* Maximale Breite */
-  height: 500px; /* Automatische Höhe */
+  width: 50%;
+  max-width: 800px;
+  height: 500px;
   position: relative;
-  margin: 20px auto; /* Zentriere den Carousel */
+  margin: 20px auto;
   overflow: hidden;
   border-radius: 10px;
   display: flex;
@@ -40,12 +40,11 @@ section p {
   justify-content: center;
 }
 
-/* Slide Images */
 .carousel-slide img {
-  height: auto; /* Automatische Höhe */
-  width: 100%; /* Volle Breite */
-  max-height: 500px; /* Maximale Höhe */
-  object-fit: cover; /* Vermeidet Verzerrung */
+  height: auto;
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
   display: block;
   border-radius: 10px;
 }
@@ -72,7 +71,6 @@ section p {
   }
 }
 
-/* Buttons Style */
 .carousel-button {
   position: absolute;
   top: 50%;
@@ -89,44 +87,42 @@ section p {
   height: 50px;
 }
 
-/* Button Position */
 .prev {
-  left: 10px; /* Abstand von der linken Seite */
+  left: 10px;
 }
 
 .next {
-  right: 10px; /* Abstand von der rechten Seite */
+  right: 10px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .home {
-    flex-direction: column; /* Vertikale Anordnung auf kleinen Bildschirmen */
-    padding: 10px; /* Weniger Padding für mobile Ansicht */
+    flex-direction: column;
+    padding: 10px;
   }
 
   section h2 {
-    font-size: 2.5rem; /* Kleinere Schriftgröße für Mobilgeräte */
-    text-align: center; /* Zentriert den Titel */
+    font-size: 2.5rem;
+    text-align: center;
   }
 
   section p {
-    font-size: 1.2rem; /* Kleinere Schriftgröße für Mobilgeräte */
-    text-align: center; /* Zentriert den Text */
+    font-size: 1.2rem;
+    text-align: center;
   }
 
   .carousel-container {
-    width: 100%; /* Slideshow passt sich der Bildschirmbreite an */
-    height: 200px; /* Kleinere Höhe für mobile Geräte */
+    width: 100%;
+    height: 200px;
   }
 
   .carousel-slide img {
-    max-height: 200px; /* Maximale Höhe für mobile Geräte */
+    max-height: 200px;
   }
 
   .carousel-button {
     width: 40px;
     height: 40px;
-    font-size: 20px; /* Kleinere Buttons auf mobilen Geräten */
+    font-size: 20px;
   }
 }

@@ -14,7 +14,7 @@
 
 .contact-links {
   display: flex;
-  flex-wrap: wrap; /* Ermöglicht das Umfließen der Karten */
+  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
 }
@@ -43,38 +43,41 @@
 }
 
 .contact-icon {
-  font-size: 100px; /* Kleinere Standardgröße */
+  font-size: 100px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .contact-container h2 {
-    font-size: 24px; /* Kleinere Schriftgröße für Mobilgeräte */
+    font-size: 24px;
   }
 
   .contact-card {
-    width: 120px; /* Kleinere Breite für Mobilgeräte */
-    height: 120px; /* Kleinere Höhe für Mobilgeräte */
+    width: 120px;
+    height: 120px;
   }
 
   .contact-icon {
-    font-size: 80px; /* Kleinere Icons für Mobilgeräte */
+    font-size: 80px;
   }
 }
 
 @media (max-width: 480px) {
   .contact-container {
-    padding: 10px; /* Weniger Padding auf sehr kleinen Bildschirmen */
+    padding: 10px;
+    margin-bottom: 150px;
   }
 
   .contact-card {
-    width: 100px; /* Weiter verkleinerte Breite */
-    height: 100px; /* Weiter verkleinerte Höhe */
+    width: 100px;
+    height: 100px;
   }
 
   .contact-icon {
-    font-size: 60px; /* Noch kleinere Icons */
+    font-size: 60px;
   }
+}
+.contact-card {
+  margin-bottom: 5px;
 }
