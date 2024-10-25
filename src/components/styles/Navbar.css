@@ -2,6 +2,7 @@
   font-size: 200%;
   color: #f64c72;
 }
+
 .navbar {
   color: white;
   padding-left: 20px;
@@ -22,6 +23,7 @@
   color: white;
   text-decoration: none;
 }
+
 .navbar li {
   transition: transform 0.3s ease;
 }
@@ -29,13 +31,16 @@
 .navbar li:hover {
   transform: scale(1.2);
 }
+
 @media (max-width: 768px) {
   .navbar {
     color: white;
-    padding-left: 50px;
+    text-align: center;
     display: flex;
-
+    margin-top: 0;
+    width: 100%;
     align-items: center;
-    background-color: #f64c72;
+    padding-left: 0;
+    justify-content: center;
   }
 }
