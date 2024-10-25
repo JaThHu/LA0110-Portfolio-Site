@@ -44,21 +44,21 @@ Ich mache ein Portfolio als Website mit HTML, CSS und JavaScript.
 
 ## 2 Planen
 
-| AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
+| AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit in Schulstunden |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |  23.08.2024     |    Janick       |   Einrichtung des React.js-Projekts und Implementierung der Navbar.	           |               |
-| 1.B |    23.08.2024      |     Janick      |      Entwicklung der Navigation für die Startseite, „Über mich“-Seite und „Projekte“-Seite.	        |               |
-| 2.A		 | 06.09.2024      |     Janick      |      Entwicklung der Startseite mit allen notwendigen Platzhaltern und Verlinkungen.        |               |
-| 2.B		 |  06.09.2024     |     Janick      |   Darstellung der Projekte mit Platzhaltern für Titel, Bild, Beschreibung und Link.	           |               |
-| 2.C	 |   06.09.2024    |     Janick      |      Gestaltung der Projekt-Platzhalter mit Hover-Effekten.	        |               |
-|3.A	  | 18.10.2024      |    Janick       |    Hinzufügen von Social Media-Links und E-Mail-Kontaktmöglichkeit im Footer.          |               |
-| 4.A |  18.10.2024     |   Janick        |     Umsetzung des Responsive Designs für die Navigation und Hauptinhalte.	         |               |
-| 4.B	 |  18.10.2024     |   Janick        |     Anpassung der „Über mich“- und „Projekte“-Seite für mobile Geräte.         |               |
-| 5.A | 06.09.2024      |    Janick       |    Entwicklung der „Über mich“-Seite mit allen relevanten Informationen.	          |               |
-| 6.A	 |  25.10.2024     |   Janick        |     Veröffentlichung der Website auf dem Web-Server.         |               |
-| 7.A	 |  25.10.2024     |    Janick       |     Testing der gesamten Website und Behebung von Fehlern.         |               |
+| 1.A  |  23.08.2024     |    Janick       |   Einrichtung des React.js-Projekts und Implementierung der Navbar.	           |      1         |
+| 1.B |    23.08.2024      |     Janick      |      Entwicklung der Navigation für die Startseite, „Über mich“-Seite und „Projekte“-Seite.	        |      4         |
+| 2.A		 | 06.09.2024      |     Janick      |      Entwicklung der Startseite mit allen notwendigen Platzhaltern und Verlinkungen.        |         2      |
+| 2.B		 |  06.09.2024     |     Janick      |   Darstellung der Projekte mit Platzhaltern für Titel, Bild, Beschreibung und Link.	           |       2        |
+| 2.C	 |   06.09.2024    |     Janick      |      Gestaltung der Projekt-Platzhalter mit Hover-Effekten.	        |        2       |
+|3.A	  | 18.10.2024      |    Janick       |    Hinzufügen von Social Media-Links und E-Mail-Kontaktmöglichkeit im Footer.          |        2      |
+| 4.A |  18.10.2024     |   Janick        |     Umsetzung des Responsive Designs für die Navigation und Hauptinhalte.	         |       5        |
+| 4.B	 |  18.10.2024     |   Janick        |     Anpassung der „Über mich“- und „Projekte“-Seite für mobile Geräte.         |       2        |
+| 5.A | 06.09.2024      |    Janick       |    Entwicklung der „Über mich“-Seite mit allen relevanten Informationen.	          |       2        |
+| 6.A	 |  25.10.2024     |   Janick        |     Veröffentlichung der Website auf dem Web-Server.         |         2      |
+| 7.A	 |  25.10.2024     |    Janick       |     Testing der gesamten Website und Behebung von Fehlern.         |       1        |
 
-Total: 
+Total: 25
 
 ## 3 Entscheiden
 
@@ -66,13 +66,17 @@ Total:
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |  23.08.2024     |    Janick       |               |                   |
-| 1.B  | 23.08.2024      |    Janick       |               |                   |
-| 2.A |   30.08.2024   |    Janick       |               |                   |
-| 2.B |  06.09.2024   |    Janick       |               |                   |
-| 2.C |   06.09.2024  |    Janick       |               |                   |
-
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+| 1.A  |  23.08.2024     |    Janick       |      1         |         1          |
+| 1.B  | 23.08.2024      |    Janick       |      4         |          4         |
+| 2.A |   30.08.2024   |    Janick       |       2        |          2         |
+| 2.B |  06.09.2024   |    Janick       |      2        |          2         |
+| 2.C |   06.09.2024  |    Janick       |      2         |         2          |
+| 3.A | 18.10.2024 | Janick |2 | 1|
+| 4.A | 18.10.2024 | Janick |5 |7 |
+| 4.B | 18.10.2024 | Janick | 2|1 |
+| 5.A | 06.09.2024 | Janick |2 |1 |
+| 6.A | 25.10.2024 | Janick |2 |1 |
+| 7.A | 25.10.2024 | Janick |1 |3 |
 
 ## 5 Kontrollieren
 
