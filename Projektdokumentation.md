@@ -34,11 +34,11 @@ Ich mache ein Portfolio als Website mit HTML, CSS und JavaScript.
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  | Die Website ist geladen, und die Navigationsleiste ist sichtbar. | Der Benutzer klickt auf den Link "Über mich" in der Navigationsleiste. | Die "Über mich"-Seite wird korrekt angezeigt. |
-| 1.2  | Die Website ist geladen, und die Navigationsleiste ist sichtbar. | Der Benutzer bewegt den Mauszeiger über das Menü "Projekte" und klickt auf einen Eintrag im Dropdown-Menü. | Die entsprechende Projektseite wird geladen. |
+| 1.2  | Die Website ist geladen, und die Navigationsleiste ist sichtbar. | Der Benutzer klickt auf den Link "Projekte" in der Navigationsleiste.  | Die "Projekte"-Seite wird korrekt angezeigt. |
 | 2.1  | Die "Projekte"-Seite ist geladen. | Der Benutzer scrollt durch die Projekte. | Alle Projekte werden mit Titel, Bild, Beschreibung und Link korrekt angezeigt. |
 | 3.1  | Die Kontaktseite ist geöffnet. | Der Benutzer klickt auf einen der Links. | Der Link öffnet sich und kann auf der Seite machen was er will. |
 | 4.1  | Die Website wird auf einem mobilen Gerät geöffnet. | Der Benutzer navigiert durch die Website. | Die Inhalte passen sich der Bildschirmgröße an, ohne dass der Benutzer horizontal scrollen muss. |
-| 5.1  | Der Benutzer klickt auf den "Über mich"-Link in der Navigation. | Der Benutzer ruft die "Über mich"-Seite auf. | Die "Über mich"-Seite wird angezeigt und zeigt eine persönliche Beschreibung, den Lebenslauf und Kontaktdaten. |
+| 5.1  | Der Benutzer klickt auf den "Über mich"-Link in der Navigation. | Der Benutzer ruft die "Über mich"-Seite auf. | Die "Über mich"-Seite wird angezeigt und zeigt eine persönliche Beschreibung und den Lebenslauf. |
 | 6.1  | Die Website ist live geschaltet und öffentlich zugänglich. | Der Benutzer ruft die URL der Website im Browser auf. | Die Website wird korrekt geladen, und alle Inhalte sind sichtbar und funktionsfähig. |
 
 
@@ -84,11 +84,12 @@ Total: 25
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  |   25.10.2024    |      OK    |    Janick    |
+| 1.2  |    25.10.2024     |      OK    |    Janick     |
+| 2.1 | 25.10.2024  |OK |Janick  |
+| 3.1 | 25.10.2024  | OK| Janick |
+| 4.1 | 25.10.2024  | OK| Janick |
+| 5.1 | 25.10.2024  | OK| Janick |
+| 6.1 | 25.10.2024  |OK | Janick |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
-## 6 Auswerten
-
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
