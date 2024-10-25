@@ -4,9 +4,12 @@ Ghost_SnipexOG/Jathhu/JanickDieSniper
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|   23.08.2024    | 0.0.1   | Das Projekt ist aufgesetzt, und die Navigation zwischen den Seiten funktioniert einwandfrei. Die Grundstruktur der Website steht. |
-|  30.08.2024     | 0.0.2     | Die Startseite wurde aufgebaut und die Platzhalter wurden erstellt.     |
-|   06.09.2024    | 0.0.3   |  Die Startseite wurde fertiggestellt und die "über mich"-Seite angefangen.      |
+|   23.08.2024    | 0.1.   | Das Projekt ist aufgesetzt, und die Navigation zwischen den Seiten funktioniert einwandfrei. Die Grundstruktur der Website steht. |
+|  30.08.2024     | 0.2.     | Die Startseite wurde aufgebaut und die Platzhalter wurden erstellt.     |
+|   06.09.2024    | 0.3.   |  Die Startseite wurde fertiggestellt und die "über mich"-Seite angefangen.      |
+| 13.09.2024 | 0.4. | Footer implementiert und mit dem responsive Design begonnen. |
+| 14.10.2024 | 0.5. | Am responsive Design weitergearbeitet. |
+| 25.10.2024 | 1.0. | Responsive Design fertiggestellt und veröffnetlicht. |
 
 ## 1 Informieren
 
