@@ -25,13 +25,13 @@ const Projects = () => {
           title="Frickdart"
           image="./images/Frickdart.png"
           description="Eine Dartzählapp, als Webapp mit React und Firebase für Speicherung, die sich auf drei beliebte Spielmodi konzentriert: 301/501, Around the Clock und High Score. Ein Schulprojekt in Einzerlarbeit."
-          link="https://github.com/JaThHu/SnakeGame"
+          link="https://frickdart.netlify.app/"
         />
         <ProjectCard
           title="Frickasino"
           image="./images/Frickasino.png"
           description="Eine interaktive Casino-Webseite, auf der Benutzer beliebte Casinospiele wie Baccarat, Slots, Roulette und Blackjack spielen können. Ein Schulprojekt in Gruppenarbeit."
-          link="https://github.com/JaThHu/SnakeGame"
+          link="https://frickasino.netlify.app/"
         />
         <ProjectCard
           title="SnakeGame"
