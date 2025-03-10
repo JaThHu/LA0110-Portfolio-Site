@@ -13,7 +13,7 @@ const About = () => {
       <div className="header">
         <div className="profile-picture">
           <img
-            src="./images/profilbild.png"
+            src="./images/Lebenslauf_Bild.jpg"
             alt="Bild von mir"
             className="home-logo"
           ></img>
