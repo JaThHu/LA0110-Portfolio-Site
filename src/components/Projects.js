@@ -22,9 +22,21 @@ const Projects = () => {
       <h2 className="siteTitle">Meine Projekte</h2>
       <div className="projects-grid">
         <ProjectCard
+          title="Frickdart"
+          image="./images/Frickdart.png"
+          description="Eine Dartzählapp, als Webapp mit React und Firebase für Speicherung, die sich auf drei beliebte Spielmodi konzentriert: 301/501, Around the Clock und High Score. Ein Schulprojekt in Einzerlarbeit."
+          link="https://github.com/JaThHu/SnakeGame"
+        />
+        <ProjectCard
+          title="Frickasino"
+          image="./images/Frickasino.png"
+          description="Eine interaktive Casino-Webseite, auf der Benutzer beliebte Casinospiele wie Baccarat, Slots, Roulette und Blackjack spielen können. Ein Schulprojekt in Gruppenarbeit."
+          link="https://github.com/JaThHu/SnakeGame"
+        />
+        <ProjectCard
           title="SnakeGame"
           image="./images/SnakeGame.png"
-          description="Mein 1-Tages-Projekt. Inspriert vom originalen Snake Spiel."
+          description="Mein 1-Tages-Projekt. Inspiriert vom originalen Snake Spiel."
           link="https://github.com/JaThHu/SnakeGame"
         />
         <ProjectCard
