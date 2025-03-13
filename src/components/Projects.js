@@ -22,6 +22,12 @@ const Projects = () => {
       <h2 className="siteTitle">Meine Projekte</h2>
       <div className="projects-grid">
         <ProjectCard
+          title="Nothizen"
+          image="./images/Nothizen.png"
+          description="Eine Notizen-App, die auf allen Geräten nutzbar ist. Die Anwendung soll es mehreren Benutzern ermöglichen, Notizen zu erstellen, zu liken, als erledigt zu markieren und Kommentare zu hinterlassen. Mit Login und Authentifikation geschützt."
+          link="https://nothizen.vercel.app/"
+        />
+        <ProjectCard
           title="Frickdart"
           image="./images/Frickdart.png"
           description="Eine Dartzählapp, als Webapp mit React und Firebase für Speicherung, die sich auf drei beliebte Spielmodi konzentriert: 301/501, Around the Clock und High Score. Ein Schulprojekt in Einzerlarbeit."
